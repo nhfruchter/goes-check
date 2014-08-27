@@ -60,8 +60,8 @@ def writestatus(status):
 def main(u,p):
     global log
     
-    PB_KEY = "Put your PushBullet API key here."
-    PB_EMAIL = "Put your PushBullet account email here."
+    PB_KEY = "56017ec13c0d8361d9f8253ee06a14fb"
+    PB_EMAIL = "nhfruchter@gmail.com"
     
     local_status = currentstatus()
     official_status = getstatus(login(u,p))
@@ -88,8 +88,8 @@ def main(u,p):
             log.info("PUSH: Status remained the same, not pushing.")        
     
 if __name__ == '__main__':
-    U = "username"
-    P = "password"
+    U = "nhfruchter"
+    P = "kjlfp5##goes"
     here = os.path.dirname(os.path.realpath(sys.argv[0]))
         
     main(U,P)
